@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".faq-toggle")
+const buttons = document.querySelectorAll("button")
 
 
 
