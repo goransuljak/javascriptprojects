@@ -56,6 +56,22 @@ body {
   top: 50%;
   left: 50%;
   height: 65px;
-  width: 3px;
+  width: 4px;
   transform-origin: bottom center;
+}
+.needle.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+.needle.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  width: 3px;
+}
+.needle.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  background-color: #e74c3c;
+  width: 2px;
+}
+.center-point {
 }
