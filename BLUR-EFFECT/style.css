@@ -13,10 +13,12 @@ body {
 .bg {
   background: url("mat.jpg") no-repeat center/cover;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100vh;
   height: 100vh;
   z-index: -1;
   filter: blur(0px);
+}
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
